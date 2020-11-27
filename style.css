@@ -1,0 +1,37 @@
+html {
+    background-color: rgb(113, 116, 78);
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+button > #reset {
+    position: absolute;
+    margin-left: auto;
+}
+
+.container {
+    --columns: 64;
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(var(--columns), 1fr);
+}
+
+.gridBox {
+    background-color: rgb(0, 0, 0, 0);
+    width: 1fr;
+    height: 1fr;
+}
+
+.filledBox {
+    background-color: black;
+    width: 1fr;
+    height: 1fr;
+}

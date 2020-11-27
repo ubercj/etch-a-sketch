@@ -1,0 +1,3 @@
+The purpose of this project is to create an "etch-a-sketch" program with a grid of square divs that change color when you drag the mouse across them. I'm also supposed to include a button that will reset the grid and provide a prompt for how large the next grid should be.
+
+This project will require use of DOM manipulation and likely a good amount of independent research on JavaScript and DOM functions.
